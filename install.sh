@@ -10,7 +10,8 @@ declare -A colors=(
 )
 
 # Configuration variables
-readonly ROOTFS_DIR="/home/container"
+mkdir ~/rootfs
+readonly ROOTFS_DIR="~/rootfs"
 readonly PROOT_VERSION="5.4.0"
 readonly BASE_URL="https://images.linuxcontainers.org/images"
 
