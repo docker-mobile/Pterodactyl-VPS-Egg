@@ -13,7 +13,7 @@ sleep 1
 printf "\033c"
 
 # Configuration
-HOSTNAME="MyVPS"
+HOSTNAME="MyIPv4VPS"
 HISTORY_FILE="${HOME}/.custom_shell_history"
 MAX_HISTORY=1000
 
